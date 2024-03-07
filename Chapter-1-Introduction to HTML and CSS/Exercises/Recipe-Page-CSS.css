@@ -1,5 +1,18 @@
 body {
   
-    background-image: url("jalebi\ 2.jpg");
+    background-image: url("jalebi.jpeg");
     backdrop-filter: blur(5px);
   }
+
+h1{
+  color: beige;
+}
+p{
+  color: bisque;
+}
+h2{
+  color: beige;
+}
+p{
+  color: bisque;
+}

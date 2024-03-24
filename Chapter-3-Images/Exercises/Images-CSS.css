@@ -1,0 +1,50 @@
+
+
+body {
+  margin: 50px auto; /* Adjust margin for better centering */
+  width: max-content;
+  background-color: #b5a37ee0;
+  font-family: "Poppins", sans-serif;
+  text-align: center; /* Center-align all content */
+}
+
+.maincontainer {
+  display: inline-block; /* Allow container to shrink to fit content */
+  margin-bottom: 50px; /* Add space between each set */
+}
+
+.imgcontainer {
+  text-align: center; /* Center-align all content */
+  margin-bottom: 25px; /* Add margin between image containers */
+}
+
+img {
+  display: block;
+  margin: 0 auto 10px; /* Center-align images and add margin between images and headers */
+}
+
+h2 {
+  margin-bottom: 5px; /* Add margin between headers and images */
+}
+
+.copyright {
+  font-size: 16px;
+}
+
+.image1 img {
+  filter: grayscale(80%)
+}
+
+.image2 img {
+  filter: invert(70%)
+}
+
+.image3 img{
+  filter: opacity(60%)
+}
+
+#row::after {
+    content: "center";
+    clear: both;
+    display: table;
+  }

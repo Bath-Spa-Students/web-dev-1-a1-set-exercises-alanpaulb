@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap'); /*'Comic Neue' font*/
+
+body {
+    background-image:linear-gradient(rgb(139, 166, 239),rgb(39, 82, 202),rgb(0, 25, 95));
+    text-align: center;
+    font-family: "Sans-serif";
+    color: rgb(0, 0, 0);
+}
+
+video {
+    width: 60%;
+    margin-bottom: 20px;
+    }
+.head{
+   box-shadow:  2px 3px 10px#af5501;
+}
+a {color: darkorange; text-decoration: none; margin: 0 10px;} /*no underline, orange link*/
+a:hover{color: darkred} /*link is red on hover*/

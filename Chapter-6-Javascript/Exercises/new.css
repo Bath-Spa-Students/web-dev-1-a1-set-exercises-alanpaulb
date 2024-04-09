@@ -1,0 +1,34 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 10px solid #000000;
+    border-radius: 15px;
+}
+
+input[type="number"], button {
+    margin: 8px;
+    padding: 10px;
+}
+
+button {
+    background-color: #000000;
+    color: rgb(238, 206, 206);
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+
+h2 {
+    color: #422a2a;
+}
+
+h3 {
+    color: #161716;
+}
+
+button:hover {
+    background-color: #446946;
+}
